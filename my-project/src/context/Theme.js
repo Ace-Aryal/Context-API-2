@@ -7,7 +7,8 @@ export const ThemeContext = createContext({
 })
 
 export const ThemeProvider = ThemeContext.Provider// sme as previous provider
+export default function useTheme (){
 
-export default useTheme = () =>{
+
     return useContext(ThemeContext) // custom hook to access value
 }
